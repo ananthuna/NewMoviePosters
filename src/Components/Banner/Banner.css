@@ -1,0 +1,46 @@
+.banner{
+    background-image: url('https://pbs.twimg.com/media/D_vs6nQXsAIpzUG.jpg');
+    background-size: cover;
+    top: 5rem;
+    height: 26rem;
+    color: white;
+}
+.content{
+    padding-top: 6rem;
+    padding-left: 2rem;
+    height: 5rem;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 0.6rem;
+    padding:  7px 7px;
+    height: 2.2rem;
+    width: 5rem;
+    background: rgba(51, 51, 51, 0.5);
+}
+.button:hover{
+    color: black;
+    background: #e6e6e6;
+}
+.discription{
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    max-width: 345px;
+}
+.fade_bottom{
+    height: 15rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+.button_icon{
+    padding-right: 0.5rem;
+}
