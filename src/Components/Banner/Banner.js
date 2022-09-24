@@ -4,11 +4,13 @@ import axios from '../../axios'
 import { apikey, imageUrl } from '../../constants/constants'
 
 function Banner() {
+
   function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min);
   }
+  
   const [movie, setMovie] = useState()
   useEffect(() => {
     axios.get(`trending/all/week?api_key=${apikey}&language=en-US`).then((response) => {
